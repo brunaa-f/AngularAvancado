@@ -6,16 +6,14 @@ import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { CadastroComponent } from './demos/reactiveForms/cadastro/cadastro.component';
-import { NavegacaoModule } from './navegacao/navegacao.modue';
+import { NavegacaoModule } from './navegacao/navegacao.module';
 import { AppRoutingModule } from './app.routes';
-import { ProdutoDashboardComponent } from './demos/arquitetura-components/produto-dashboard/produto-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SobreComponent,
     CadastroComponent,
-    ProdutoDashboardComponent,
   ],
   imports: [
     NavegacaoModule,
